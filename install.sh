@@ -210,7 +210,7 @@ echo -e "\e[91mSchriften\e[39m installieren? (y/n)?"
 echo -e "Install \e[91mfonts\e[39m? (y/n)?"
 read answer
 if echo "$answer" | grep -iq "^y" ;then
-  xdg-open ./font.png
+  xdg-open ./font.png &
   pwd
   find $fontSourceDir -iname "*ttf" -exec gnome-font-viewer '{}' \;
 #  for i in $(ls *.ttf); do gnome-font-viewer "$i"; done;
