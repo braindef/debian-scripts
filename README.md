@@ -1,5 +1,5 @@
                                                                                       
-debian-scripts
+# debian-scripts
 
 
 Several Scripts I use in my daily life, since I'm never sure if my computer
