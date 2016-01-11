@@ -1,11 +1,5 @@
                                                                                       
-#####  ###### #####  #   ##   #    #        ####   ####  #####  # #####  #####  ####  
-#    # #      #    # #  #  #  ##   #       #      #    # #    # # #    #   #   #      
-#    # #####  #####  # #    # # #  # #####  ####  #      #    # # #    #   #    ####  
-#    # #      #    # # ###### #  # #            # #      #####  # #####    #        # 
-#    # #      #    # # #    # #   ##       #    # #    # #   #  # #        #   #    # 
-#####  ###### #####  # #    # #    #        ####   ####  #    # # #        #    ####  
-debian-scripts
+# debian-scripts
 
 
 Several Scripts I use in my daily life, since I'm never sure if my computer
@@ -29,7 +23,7 @@ the existence gives the CIA at least 3 benefits
 3. the communication platform will be attacked, so satans communication develops faster
 ->even if Snowden seems to be true with the world
 
-#US4877027  |  #WO2005055579A1  |  #US6169924B1 (1960s,today most likely "upgraded" to all the "wires" in the spinal cord)
+# US4877027  |  WO2005055579A1  |  US6169924B1 (1960s,today most likely "upgraded" to all the "wires" in the spinal cord)
 
 in addition the western TV always gives a scapegoat
 jews, russians, tor users, linux usersm muslims, even 5 Years old innocent muslim grils
