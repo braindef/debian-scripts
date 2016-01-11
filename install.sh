@@ -144,13 +144,18 @@ echo
 echo -e "bitte [enter] drücken, allenfalls im Editor \e[34m:syntax off\e[39m [enter] drücken, das schaltet das Syntax Highlighting ein"
 read answer
 
+xdg-open ./common-auth.png
 vim /etc/pam.d/common-auth
 
 echo
 echo
 echo -e "Dann macht es allenfalls Sinn den root Account zu deaktivieren nach dem man den Benutzer $(id -u 1000 -n) im sudoers eingetragen hat, damit man noch einen Adminkonto hat"
 echo -e "Possibily its wise to disable the root Account, after the user $(id -u 1000 -n) was added to the /etc/sudoers, that there is at least one Admin Account"
+
+xdg-open ./sudoers.png
 vim "+:syntax on" /etc/sudoers
+
+xdg-open ./nologin.png
 vim "+:syntax on" /etc/passwd
 
 #scroobar nicht ubuntu style
@@ -205,6 +210,7 @@ echo -e "\e[91mSchriften\e[39m installieren? (y/n)?"
 echo -e "Install \e[91mfonts\e[39m? (y/n)?"
 read answer
 if echo "$answer" | grep -iq "^y" ;then
+  xdg-open ./font.png
   pwd
   find $fontSourceDir -iname "*ttf" -exec gnome-font-viewer '{}' \;
 #  for i in $(ls *.ttf); do gnome-font-viewer "$i"; done;
